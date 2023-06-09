@@ -1,0 +1,21 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 13
+names:
+  [
+    "car",
+    "crosswalk",
+    "highway_entry",
+    "highway_exit",
+    "no_entry",
+    "onewayroad",
+    "parking",
+    "pedestrian",
+    "priority",
+    "roadblock",
+    "roundabout",
+    "stop",
+    "trafficlight",
+  ]
